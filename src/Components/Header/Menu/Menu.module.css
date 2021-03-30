@@ -1,6 +1,21 @@
-.list{
+.menu {
+  margin-left: auto;
+}
+
+.list {
   display: flex;
 }
-.item{
+
+.item {
   margin-right: 5rem;
+}
+
+.link {
+  color: #fff;
+  font-weight: 500;
+}
+
+.link:hover,
+.link:focus {
+  color: #c1c1c1;
 }
