@@ -1,3 +1,10 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --grey: #c1c1c1;
+  --darkBlue: #2f4f4f;
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -17,6 +24,7 @@ body {
   font-size: 1.6rem;
   margin: 0 auto;
   padding: 0;
+  color: var(--black);
 }
 
 .container {
@@ -65,10 +73,4 @@ h6 {
 img {
   max-width: 100%;
   height: auto;
-}
-:root{
-  --black: #000;
-  --white: #fff;
-  --grey: #c1c1c1;
-  --darkBlue: #2f4f4f;
 }

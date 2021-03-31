@@ -11,11 +11,12 @@
 }
 
 .link {
-  color: #fff;
+  font-size: 1.6rem;
   font-weight: 500;
+  color: var(--white);
 }
 
 .link:hover,
 .link:focus {
-  color: #c1c1c1;
+  color: var(--grey);
 }
